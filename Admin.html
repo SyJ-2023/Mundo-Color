@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-admin.css">
+    <title>Administrador - Mundo Color</title>
+</head>
+<body>
+    <header>
+        <h1>ADMINISTRADOR</h1>
+    </header>
+
+    <section class="notes">
+        <h2>NOTAS</h2>
+        <textarea id="note-input" placeholder="Escribe una nota"></textarea>
+        <button id="publish-note">Publicar Nota</button>
+        <p id="note-view"></p>
+    </section>
+
+    <section class="publications">
+        <h2>PUBLICACIONES</h2>
+        <input type="file" id="file-input">
+        <button id="preview-file">Vista previa</button>
+        <button id="publish-file">Publicar</button>
+        <div id="file-preview"></div>
+        <div id="published-files">
+            <!-- Aquí aparecerán las publicaciones -->
+        </div>
+    </section>
+
+    <section class="curriculums">
+        <h2>CURRÍCULUMS</h2>
+        <input type="file" id="curriculum-input">
+        <input type="text" id="curriculum-price" placeholder="Precio (Opcional)">
+        <button id="preview-curriculum">Vista previa</button>
+        <button id="publish-curriculum">Publicar</button>
+        <button id="publish-price">Publicar Precio</button>
+        <div id="curriculum-preview"></div>
+        <div id="published-curriculums">
+            <!-- Aquí aparecerán los currículums publicados -->
+        </div>
+    </section>
+
+    <script src="app-admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inicio - Mundo Color</title>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <h1>Bienvenido</h1>
+        <h2>Mundo Color, Llévate tu Mejor Impresión</h2>
+    </header>
+
+    <section class="notes">
+        <h2>NOTA</h2>
+        <p id="note-view">Aquí aparecerá la nota del administrador.</p>
+    </section>
+
+    <section class="publications">
+        <h2>PUBLICACIONES</h2>
+        <div id="published-files">
+            <!-- Aquí aparecerán las fotos y videos publicadas -->
+        </div>
+    </section>
+
+    <section class="message">
+        <h2>Haga su pedido aquí</h2>
+        <p>Recuerde seleccionar un currículum más abajo en caso de necesitar uno</p>
+        <input type="text" id="name-input" placeholder="Nombre">
+        <textarea id="order-input" placeholder="Haga su pedido"></textarea>
+        <button id="send-order">Enviar</button>
+        <p id="thank-you" style="display:none;">¡¡¡GRACIAS POR SU PEDIDO!!!</p>
+        <p id="contact-number" style="display:none;">Haga sus consultas al número: <span id="number"></span></p>
+    </section>
+
+    <section class="curriculums">
+        <h2>•CURRICULUMS•</h2>
+        <div id="published-curriculums">
+            <!-- Aquí aparecerán los currículums publicados -->
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
